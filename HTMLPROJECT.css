@@ -1,0 +1,216 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  line-height: 1.4;
+  font-size: 24px;
+  color: #fff;
+}
+#title {
+  font-weight: 200;
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 2rem;
+  
+}
+#description {
+    padding: 10px 35px 20px;
+    margin-bottom: 25px;
+  text-align: center;
+  font-style: italic;
+}
+#survey-form {
+    display: flexbox;
+  background-color: rgba(27, 27, 50, 0.8);
+  max-width: 33em;
+  padding:30px 55px 55px ;
+  border-radius: 9px;
+  margin: 0 auto;
+  
+  
+}
+div {
+  padding: 13px 0px;
+}
+span{
+    font-size: 19px;
+}
+
+#name {
+  padding: 10px 17px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #495057;
+  
+}
+
+#name-label{
+    padding: 10px 0;
+display: block;
+}
+#email{
+    padding: 10px 17px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #495057;
+}
+#email-label{
+    padding: 10px 0;
+    display: block;
+}
+#number{
+    padding: 10px 17px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #495057;
+}
+#number-label{
+    padding: 10px 0;
+    display: block;
+}
+
+option:first{
+   color: #999;
+}
+
+#recommend{
+margin: 10px 8px;
+    width: 25px;
+    height: 25px;
+}
+
+#dropdown{
+    padding: 10px 17px;
+  border-radius: 5px;
+  border: none;
+  width: 100%;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #495057;
+}
+input#improve{
+    width: 25px;
+    height: 25px;
+    margin: 8px 0px;
+}
+#suggestions-label{
+    padding: 10px 0;
+    display: block;
+}
+#suggestions{
+    width:100%;
+    padding: 5px 17px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  
+}
+#submit{
+    display: block;
+    padding: 13px 0px ;
+    width: 100%;
+    margin: 10px 0 10px;
+    background-color:#37af65 ;
+    font-family: "Poppins" ,sans-serif;
+    color: #fff;
+    font-size: 22px;
+}
+@media screen and  (max-width: 500px){
+  body {
+    
+    font-size: 10px;
+    color: #fff;
+  }
+  #title {
+    font-size: 18px;
+    line-height: 1.2;
+  }
+ 
+  #survey-form {
+    padding:12px 30px ;
+  }
+  div {
+    padding: 9px 0px;
+  }
+  span{
+      font-size: 10px;
+  }
+  p{
+    font-size: 13px;
+  }
+  #name {
+    padding: 2px 6px;
+   font-size: 12px;
+    border-radius: 2px;
+  }
+  
+  #name-label{
+      padding: 6px 0;
+  
+  }
+  #email{
+    padding: 2px 6px;
+    font-size: 12px;
+     border-radius: 2px;
+  }
+  #email-label{
+    padding: 6px 0;
+  }
+  #number{
+    padding: 2px 6px;
+    font-size: 12px;
+     border-radius: 2px;
+  }
+  #number-label{
+      padding: 5px 0;
+  }
+  
+  
+  #recommend{
+  margin: 5px 0px;
+  width: auto;
+  height: auto;
+  }
+
+  
+  #dropdown{
+    margin: 5px 0px;
+    padding: 2px 6px;
+    font-size: 12px;
+     border-radius: 2px;
+  }
+
+  input#improve{
+      width: auto;
+      height: auto;
+      font-size: 8px;
+  }
+  #suggestions-label{
+    padding: 5px 0;
+  }
+  #suggestions{
+     resize: vertical;
+    padding: 2px 6px;
+    font-size: 12px;
+     border-radius: 2px;
+    
+  
+  }
+  #submit{
+    padding: 5px ;
+    font-size: 8px;
+     border: none;
+  }
+} 
